@@ -1,0 +1,108 @@
+body{
+    text-align:justify; 
+    font-family: Open Sans, sans-serif;
+    background-color: #8A71C9;
+    color: #ffffff;
+    margin: 0px;
+  }
+  h1{
+    font-size:60px;
+    font-weight: 600;
+    color:rgb(119, 1, 119); 
+    text-align: center; 
+  }
+  .principal{
+    max-width: 60%;
+    margin: 0 auto;
+    background-color: #FF6CB5;
+  }
+  .principal a{
+    color: #ffffff;
+    font-weight:bold;
+    text-decoration: underline;
+    padding: 20px 10px;
+  }
+  .principal li{
+    display: inline-block;
+    line-height: 1.0;
+    margin: 0 5%;
+  }
+  h2{
+    font-size: 40px;
+    color: #2a0074;
+    text-align: center;
+  }
+  h3{
+    font-size: 22px;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  section{
+    width: 60%;
+    margin: 0% auto;
+  }
+  section section{
+    width: 100%;
+  }
+  p{
+    font-size: 20px; 
+    line-height: 1.5; /*só funciona com ponto!!*/
+    margin: 0px;
+    text-indent: 60px;
+  }
+  
+  .titulo-verde{
+    color:#00fc9b;
+  }
+  .titulo-rosa{
+    color: #ff9e9e;
+  }
+  .titulo-amarelo{
+    color: #ffe36d
+  }
+  .p a{
+    color: darkmagenta;
+  }
+  ul{
+    list-style-type:none;
+    font-size: 20px;
+    line-height: 2;
+    text-align: center;
+    padding-left: 0;
+  }
+  a{
+    color: #99ffff;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  d {
+    display: none;
+    background-color: #FF6CB5;
+    padding: auto;
+    margin: 0 auto;
+    width: 40%
+  }
+  li:hover d{
+  display: block;
+  }
+  .img{
+    width: 100%;
+  }
+  .img1{
+    width: 2%;
+  }
+  .legend{
+    text-align: center;
+  }
+  .form{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  button{
+    cursor: pointer;
+    background-color: #41f341;
+    border: 1px solid transparent;
+    padding: 2px 20px;
+    border-radius: 3px;
+  }
